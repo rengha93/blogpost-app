@@ -52,3 +52,6 @@ next-env.d.ts
 
 # TypeScript config (if you want to ignore it)
 tsconfig.json
+
+# Allow husky folder
+!.husky/

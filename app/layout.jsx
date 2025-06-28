@@ -1,14 +1,12 @@
-import Header from "@/components/Header";
-import "./globals.css";
-import { ThemeProvider } from "@/context/themeContext";
+import Header from '@/components/Header';
+import './globals.css';
+import { ThemeProvider } from '@/context/themeContext';
 
 export const metadata = {
-  title: "MindBytes",
+  title: 'MindBytes',
 };
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>

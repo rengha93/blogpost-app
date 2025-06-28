@@ -1,6 +1,4 @@
-@import "tailwindcss";
-
-
+@import 'tailwindcss';
 
 /* Enable class-based dark mode */
 @variant dark (.dark &);

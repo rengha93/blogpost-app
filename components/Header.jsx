@@ -1,8 +1,7 @@
-"use client";
+'use client';
 
-import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
-import { useTheme } from "../context/themeContext";
-
+import { MoonIcon, SunIcon } from '@heroicons/react/16/solid';
+import { useTheme } from '../context/themeContext';
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
@@ -16,7 +15,7 @@ export default function Header() {
                    hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
         onClick={toggleTheme}
       >
-        {theme === "dark" ? <SunIcon className="w-5 h-5" /> : <MoonIcon className="w-5 h-5" />}
+        {theme === 'dark' ? <SunIcon className="w-5 h-5" /> : <MoonIcon className="w-5 h-5" />}
       </button>
     </div>
   );
